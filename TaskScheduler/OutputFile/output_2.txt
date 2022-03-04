@@ -1,0 +1,56 @@
+Method: FCFS
+TaskNumber	TaskName	CPU_Time	Turnaround_Time	Start_Tick	End_Tick
+1		T1		50		50		0		49
+2		T2		68		118		50		117
+3		T3		106		224		118		223
+4		T4		19		243		224		242
+5		T5		113		356		243		355
+6		T6		106		462		356		461
+7		T7		109		571		462		570
+8		T8		10		581		571		580
+9		T9		45		626		581		625
+10		T10		111		737		626		736
+Average turnaround time for FCFS = 396.800000
+Total CPU Time for FCFS = 737
+Method: RR
+TaskNumber	TaskName	CPU_Time	Turnaround_Time	Start_Tick	End_Tick
+1		T1		0		360		350		359
+2		T2		-2		500		490		499
+3		T3		-4		710		700		709
+4		T4		-1		140		130		139
+5		T5		3		720		710		719
+6		T6		-4		730		720		729
+7		T7		-1		740		730		739
+8		T8		0		80		70		79
+9		T9		-5		420		410		419
+10		T10		1		750		740		749
+Average turnaround time for RR = 515.000000
+Total CPU Time for RR = 737
+Method: Priority
+TaskNumber	TaskName	CPU_Time	Turnaround_Time	Start_Tick	End_Tick
+4		T4		-1		-1		0		-2
+8		T8		0		-1		-1		-2
+1		T1		0		-1		-1		-2
+3		T3		-4		-5		-1		-6
+6		T6		-4		-9		-5		-10
+10		T10		1		-8		-9		-9
+9		T9		-5		-13		-8		-14
+2		T2		-2		-15		-13		-16
+5		T5		3		-12		-15		-13
+7		T7		-1		-13		-12		-14
+Average turnaround time for Priority = -7.800000
+Total CPU Time for Priority = -13
+Method: SJF
+TaskNumber	TaskName	CPU_Time	Turnaround_Time	Start_Tick	End_Tick
+9		T9		-5		-5		0		-6
+3		T3		-4		-13		-9		-14
+3		T3		-4		-13		-9		-14
+2		T2		-2		-15		-13		-16
+4		T4		-1		-17		-16		-18
+4		T4		-1		-17		-16		-18
+1		T1		0		-17		-17		-18
+1		T1		0		-17		-17		-18
+10		T10		1		-16		-17		-17
+5		T5		3		-13		-16		-14
+Average turnaround time for SJF = -14.300000
+Total CPU Time for SJF = -13
